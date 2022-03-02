@@ -1,0 +1,43 @@
+body {color: #40407A; background-color: #40407A; font-family: Verdana, Arial, sans-serif; max-width: 1600px; min-width: 900px; margin: 0;}
+header {background-color: #40407A; color: #FFF; background-image: url(sunrise.jpg); background-size: 100% 100%; margin-top: 50px; font-size: 120%;}
+header:link {color: #FFF;}
+header:visited {color: #FFF;}
+header:hover {color: #8F92B2; transition: ease-out 10s;}
+footer {font-style: italic; font-size: small; text-align: center; clear: right;}
+nav {text-align: right; background-color: #FFF; margin-left: 0; margin-top: 0; padding-top: 0.5em; padding-bottom: 1em; padding-right: 1em; z-index: 9999; width: 100%; height: 50px; font-weight: bold;}
+nav a {text-decoration: none;}
+nav li {display: inline; padding-left: 2em;}
+nav ul {flex-wrap: nowrap; justify-content: flex-end;}
+nav:link {color: #3F2860;}
+nav:visited {color: #497777;}
+nav:hover {color: #A26100;}
+ul {list-style-type: none; margin: 0; padding-right: 2em; font-size: 1.2em; flex-wrap: nowrap; justify-content: flex-end;}
+li {font-size: 90%; width: 7em;}
+dd {font-size: 90%;}
+wrapper {text-align: center; background-color: #F5F5F5; width: 80%; padding: 2em; margin: auto;}
+home {height: 50vh; padding-top: 6em; padding-left: 8em; font-size: 120%; min-height: 300px;}
+.home {height: 50%; padding-top: 5em; padding-left: 8em;}
+.content {height: 30%; padding-top: 2em; padding-left: 8em;}
+content {height: 250px; padding-top: 2em; padding-left: 8em; padding-bottom: 2em;}
+mathero {height: 300px; background-image: url("yogamat.jpg"); background-size: 100% 100%; background-repeat: no-repeat;}
+loungehero {height: 300px; background-image: url("yogalounge.jpg"); background-size: 100% 100%;}
+h2 {margin: 0;}
+* {box-sizing: border-box;}
+onethird {float: left; width: 33%; padding-left: 2em; padding-right: 2em;}
+onehalf {float: left; width: 50%; padding-left: 2em; padding-right: 2em;}
+mathero {clear: none; display: block; padding-bottom: 1em;}
+loungehero {clear: none; display: block; padding-bottom: 1em;}
+section {padding-right: 2em; padding-left: 2em;}
+flow {flex-direction: row;}
+table {border-width: 1px; border-color: #40407A; margin-bottom: 1em; min-width: 400px; border-collapse: collapse;}
+td {padding: 0.5em; border-color: #40407A; border-width: 1px;}
+th {padding: 0.5em; border-color: #40407A; border-width: 1px;}
+td:nth-of-type(2n) {background-color: #D7E8F9}
+th:nth-of-type(2n) {background-color: #D7E8F9}
+table-captions {margin: 1em; font-weight: bold; font-size: 120%;}
+form {display: flex; flex-flow: column nowrap; width: 60%; max-width: 40em; grid-gap: 1em; grid-column: 2; column-width: 9em; column-width: 1fr;}
+input {margin-bottom: 0.5em;}
+datalist {margin-bottom: 0.5em;}
+textarea {margin-bottom: 0.5em;}
+sumbit {grid-column: 2; width: 9em;}
+audio {margin-bottom: 1em;}
